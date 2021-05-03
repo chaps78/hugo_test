@@ -1,0 +1,16 @@
+baseURL = "http://example.org/"
+languageCode = "fr-fr"
+title = "My New Hugo Site"
+theme = "terminal"
+[params]
+  fullWidthTheme = true
+  centerTheme = false
+[menu]
+  [[menu.main]]
+    name = "blop"
+    url = "/blop/"
+    weight = 2
+  [[menu.main]]
+    name = "tech"
+    url = "/tech/"
+    weight = 1
